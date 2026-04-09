@@ -109,7 +109,7 @@ I am an MCA student at MIT Manipal and an aspiring Full Stack Developer with a p
       <section id="Skills" style={{ background: "#fafafa", padding: "5rem 2rem" }}>
         <div style={{ maxWidth: 720, margin: "0 auto" }}>
           <Tag>Skills</Tag>
-          <h2 style={{ color:"#000"8px 0 40px", letterSpacing: "-0.5px" }}>Technologies I work with</h2>
+          <h2 style={{ color:"#000", margin:"8px 0 40px", letterSpacing: "-0.5px" }}>Technologies I work with</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: 16 }}>
             {Object.entries(SKILLS).map(([cat, items]) => (
               <div key={cat} style={{ background: "#fff", border: "1px solid #eee", borderRadius: 12, padding: "20px" }}>
