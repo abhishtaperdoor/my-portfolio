@@ -3,9 +3,10 @@ import { useState } from "react";
 const NAV_LINKS = ["About", "Skills", "Projects", "Education", "Contact"];
 
 const SKILLS = {
-  Languages: ["C", "C++", "Python", "JavaScript", "Java"],
-  Frontend: ["React", "HTML5", "CSS3", "Tailwind CSS"],
-  Backend: ["Node.js", "Express", "REST APIs"],
+  Languages: ["C", "C++", "Python", "Java"],
+  Frontend: ["React", "HTML5", "CSS3"],
+  Backend: ["Node.js"],
+  Database:["SQL"],
   Tools: ["Git", "GitHub", "VS Code", "Linux"],
 };
 
@@ -32,15 +33,15 @@ const PROJECTS = [
 
 const EDUCATION = [
   {
-    degree: "B.E. in Computer Science & Engineering",
-    school: "Your University Name",
-    period: "2022 – 2026",
+    degree: "Masters in Computer Applications",
+    school: "Manipal Institute of Technology",
+    period: "2024 – 2026",
     desc: "Relevant coursework: Data Structures, Algorithms, DBMS, OS, Computer Networks, Web Development.",
   },
   {
-    degree: "Pre-University (12th Grade)",
-    school: "Your College Name",
-    period: "2020 – 2022",
+    degree: "Bachelors in Computer Applications",
+    school: "Mahatma Gandhi Memorial College,Udupi",
+    period: "2021 – 2024",
     desc: "Science stream with Physics, Chemistry, Mathematics and Computer Science.",
   },
 ];
@@ -87,7 +88,7 @@ export default function Portfolio() {
           👋 Open to opportunities
         </div>
         <h1 style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", fontWeight: 700, lineHeight: 1.15, margin: "0 0 16px", letterSpacing: "-1px" }}>
-          Hi, I'm <span style={{ color: "#2563eb" }}>Your Name</span>
+          Hi, I'm <span style={{ color: "#2563eb" }}>Abhishta Hebbar</span>
         </h1>
         <p style={{ fontSize: 18, color: "#444", lineHeight: 1.7, maxWidth: 560, margin: "0 0 32px" }}>
           A Computer Science student passionate about building clean, efficient software. I love solving problems, learning new technologies, and turning ideas into working products.
@@ -194,7 +195,7 @@ export default function Portfolio() {
             </button>
           </div>
           <div style={{ marginTop: 40, display: "flex", gap: 20, flexWrap: "wrap" }}>
-            {[["GitHub", "github.com/yourusername"], ["LinkedIn", "linkedin.com/in/yourusername"], ["Email", "you@email.com"]].map(([label, val]) => (
+            {[["GitHub", "github.com/abhishtahebbar"], ["LinkedIn", "linkedin.com/in/abhishta-hebbar"], ["Email", "abhishtaperdoor@gmail.com"]].map(([label, val]) => (
               <div key={label}>
                 <p style={{ fontSize: 12, color: "#999", margin: "0 0 4px", fontWeight: 500 }}>{label}</p>
                 <p style={{ fontSize: 14, color: "#2563eb", margin: 0 }}>{val}</p>
