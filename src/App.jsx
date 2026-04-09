@@ -71,7 +71,7 @@ export default function Portfolio() {
 
       {/* NAV */}
       <nav style={{ position: "sticky", top: 0, zIndex: 100, background: "rgba(255,255,255,0.92)", backdropFilter: "blur(8px)", borderBottom: "1px solid #eee", padding: "0 2rem", display: "flex", justifyContent: "space-between", alignItems: "center", height: 60 }}>
-        <span style={{ fontWeight: 600, fontSize: 18, letterSpacing: "-0.5px" }}>YourName</span>
+        <span style={{ fontWeight: 600, fontSize: 18, letterSpacing: "-0.5px" }}>Abhishta Hebbar</span>
         <div style={{ display: "flex", gap: 8 }}>
           {NAV_LINKS.map(l => (
             <button key={l} onClick={() => scrollTo(l)}
@@ -88,18 +88,18 @@ export default function Portfolio() {
           👋 Open to opportunities
         </div>
         <h1 style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", fontWeight: 700, lineHeight: 1.15, margin: "0 0 16px", letterSpacing: "-1px" }}>
-          Hi, I'm <span style={{ color: "#2563eb" }}>Abhishta Hebbar</span>
+          <span style={{ color: "#000000" }}>Hi, I'm </span> 
+          <span style={{ color: "#2563eb" }}>Abhishta Hebbar</span>
         </h1>
         <p style={{ fontSize: 18, color: "#444", lineHeight: 1.7, maxWidth: 560, margin: "0 0 32px" }}>
-          A Computer Science student passionate about building clean, efficient software. I love solving problems, learning new technologies, and turning ideas into working products.
-        </p>
+I am an MCA student at MIT Manipal and an aspiring Full Stack Developer with a passion for building applications from the ground up. My technical foundation is built on Java, Python, and SQL, and I am currently expanding my toolkit into the React ecosystem. My internship at Manipal Technologies Limited has been pivotal, teaching me how to adapt to new tech styles while sharpening my communication and team coordination. I love the process of turning a complex idea into a working reality and am always eager to learn and build more.        </p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <button onClick={() => scrollTo("Projects")}
             style={{ background: "#1a1a1a", color: "#fff", border: "none", borderRadius: 8, padding: "12px 24px", fontSize: 14, fontWeight: 500, cursor: "pointer" }}>
             View Projects
           </button>
           <button onClick={() => scrollTo("Contact")}
-            style={{ background: "#fff", color: "#1a1a1a", border: "1.5px solid #ddd", borderRadius: 8, padding: "12px 24px", fontSize: 14, fontWeight: 500, cursor: "pointer" }}>
+            style={{ background: "#0a0a0a", color: "#faf6f6", border: "1.5px solid #ddd", borderRadius: 8, padding: "12px 24px", fontSize: 14, fontWeight: 500, cursor: "pointer" }}>
             Contact Me
           </button>
         </div>
@@ -109,7 +109,7 @@ export default function Portfolio() {
       <section id="Skills" style={{ background: "#fafafa", padding: "5rem 2rem" }}>
         <div style={{ maxWidth: 720, margin: "0 auto" }}>
           <Tag>Skills</Tag>
-          <h2 style={{ fontSize: 28, fontWeight: 700, margin: "8px 0 40px", letterSpacing: "-0.5px" }}>Technologies I work with</h2>
+          <h2 style={{ color:"#000"8px 0 40px", letterSpacing: "-0.5px" }}>Technologies I work with</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: 16 }}>
             {Object.entries(SKILLS).map(([cat, items]) => (
               <div key={cat} style={{ background: "#fff", border: "1px solid #eee", borderRadius: 12, padding: "20px" }}>
@@ -129,7 +129,7 @@ export default function Portfolio() {
       <section id="Projects" style={{ padding: "5rem 2rem" }}>
         <div style={{ maxWidth: 720, margin: "0 auto" }}>
           <Tag>Projects</Tag>
-          <h2 style={{ fontSize: 28, fontWeight: 700, margin: "8px 0 40px", letterSpacing: "-0.5px" }}>Things I've built</h2>
+          <h2 style={{ color:"#000", fontSize: 28, fontWeight: 700, margin: "8px 0 40px", letterSpacing: "-0.5px" }}>Things I've built</h2>
           <div style={{ display: "grid", gap: 20 }}>
             {PROJECTS.map((p, i) => (
               <div key={i} style={{ border: "1px solid #eee", borderRadius: 12, padding: "24px", display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 16, flexWrap: "wrap", transition: "border-color 0.15s" }}
@@ -155,7 +155,7 @@ export default function Portfolio() {
       <section id="Education" style={{ background: "#fafafa", padding: "5rem 2rem" }}>
         <div style={{ maxWidth: 720, margin: "0 auto" }}>
           <Tag>Education</Tag>
-          <h2 style={{ fontSize: 28, fontWeight: 700, margin: "8px 0 40px", letterSpacing: "-0.5px" }}>My background</h2>
+          <h2 style={{ color:"#000", fontSize: 28, fontWeight: 700, margin: "8px 0 40px", letterSpacing: "-0.5px" }}>My background</h2>
           <div style={{ display: "grid", gap: 16 }}>
             {EDUCATION.map((e, i) => (
               <div key={i} style={{ background: "#fff", border: "1px solid #eee", borderRadius: 12, padding: "24px", display: "flex", gap: 20 }}>
@@ -178,7 +178,7 @@ export default function Portfolio() {
       <section id="Contact" style={{ padding: "5rem 2rem" }}>
         <div style={{ maxWidth: 720, margin: "0 auto" }}>
           <Tag>Contact</Tag>
-          <h2 style={{ fontSize: 28, fontWeight: 700, margin: "8px 0 12px", letterSpacing: "-0.5px" }}>Let's work together</h2>
+          <h2 style={{ color:"#000", fontSize: 28, fontWeight: 700, margin: "8px 0 12px", letterSpacing: "-0.5px" }}>Let's work together</h2>
           <p style={{ color: "#555", fontSize: 15, margin: "0 0 36px", lineHeight: 1.6 }}>
             Whether it's a project, internship, or just a chat about tech — feel free to reach out.
           </p>
